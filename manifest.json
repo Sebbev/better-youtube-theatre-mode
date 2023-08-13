@@ -1,10 +1,15 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Better YouTube Theatre Mode",
   "version": "1.0.3",
   "description": "Improves YouTube's theatre mode by making use of all of the available height",
   "icons": {
     "128": "icon128.png"
+  },
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{69481736-bb81-46cb-97f9-33a844462cc1}"
+    }
   },
   "content_scripts": [
     {
